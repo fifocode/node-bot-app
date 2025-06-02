@@ -28,4 +28,5 @@ async function run() {
 
 filelog('BOT_APP_RUN');
 launch('messenger');
+launch('news');
 run();
