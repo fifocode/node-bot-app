@@ -2,6 +2,7 @@ import rest from './utils/rest.js';
 import { operation } from './config.js';
 import sleep from './utils/sleep.js';
 import filelog from './utils/filelog.js';
+import launch from './utils/launch.js';
 
 process.on('uncaughtException', (e) => {
   console.error(e);
@@ -26,4 +27,5 @@ async function run() {
 }
 
 filelog('BOT_APP_RUN');
+launch('messenger');
 run();

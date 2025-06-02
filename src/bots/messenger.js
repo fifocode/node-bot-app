@@ -1,7 +1,7 @@
-import rest from './utils/rest.js';
-import { operation } from './config.js';
-import sleep from './utils/sleep.js';
-import filelog from './utils/filelog.js';
+import rest from '../utils/rest.js';
+import { operation } from '../config.js';
+import sleep from '../utils/sleep.js';
+import filelog from '../utils/filelog.js';
 
 async function run() {
   const { wakeUpTimeMs, workTimeMs, workWaitMs } = operation;
