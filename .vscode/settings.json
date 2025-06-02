@@ -1,10 +1,6 @@
 {
-  "javascript.validate.enable": true,
-  "typescript.preferences.importModuleSpecifier": "relative",
-  "typescript.tsc.autoDetect": "off",
-  "npm.autoDetect": "on",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.insertSpaces": true,
-  "editor.detectIndentation": false,
   "editor.tabSize": 2,
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifierEnding": "js"
 }

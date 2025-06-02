@@ -5,7 +5,8 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Bot Program",
-      "program": "${workspaceFolder}/src/app.js"
+      "program": "${workspaceFolder}/src/app.js",
+      "runtimeArgs": ["-r", "dotenv/config"]
     }
   ]
 }
