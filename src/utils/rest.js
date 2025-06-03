@@ -10,7 +10,7 @@ export default function rest(awakeTimeMs, workTimeMs) {
   if (now.isAfter(end)) {
     const midnight = moment(start).add(1, 'day').startOf('day');
     const next = moment(midnight).add(awakeTimeMs, 'ms');
-    return next.diff(end);
+    return next.diff(now);
   }
 
   return 0;
